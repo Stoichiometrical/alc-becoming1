@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/alc-becoming1/static/css/main.53ffb313.css",
+    "main.js": "/alc-becoming1/static/js/main.131caa45.js",
+    "index.html": "/alc-becoming1/index.html",
+    "main.53ffb313.css.map": "/alc-becoming1/static/css/main.53ffb313.css.map",
+    "main.131caa45.js.map": "/alc-becoming1/static/js/main.131caa45.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53ffb313.css",
+    "static/js/main.131caa45.js"
+  ]
+}
