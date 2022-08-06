@@ -1,0 +1,37 @@
+.introContainer{
+    width:100%;
+    height:250px;
+    background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
+}
+
+.introWrapper{
+    position:relative;
+}
+
+.introHeroImg{
+    width:100%;
+    height:260px;
+    object-fit:cover;
+    position:relative;
+    object-position:top;
+}
+
+.introHeroTxt{
+    font-size:3em;
+    font-weight:900;
+    /*font-size:40px;*/
+}
+
+.smallHeroTxt{
+    font-size: 1.5em;
+    margin-bottom:2%;
+}
+
+.introHeroTxtContainer{
+    display:flex;
+    flex-flow:column wrap;
+    margin-left:15%;
+    top:15%;
+    position:absolute;
+    color:white;
+}

@@ -1,0 +1,111 @@
+export const Imaged = styled.img`
+  width:${(props) => props.imgWidth};
+  height: ${(props) => props.imgHeight};
+  position:absolute;
+  src: ${(props) => props.custImg});
+  border-radius:15px;
+  top:-11px;
+  left:29px;
+
+
+  Package Before Build
+
+  {
+    "name": "amos-student-website",
+    "homepage": "https://Stoichiometrical.github.io/alc-becoming1",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@emotion/react": "^11.9.3",
+      "@emotion/styled": "^11.9.3",
+      "@mui/icons-material": "^5.8.4",
+      "@mui/material": "^5.9.2",
+      "@testing-library/jest-dom": "^5.16.4",
+      "@testing-library/react": "^13.3.0",
+      "@testing-library/user-event": "^13.5.0",
+      "bootstrap": "^5.2.0",
+      "mdb-react-ui-kit": "^4.1.0",
+      "react": "^18.2.0",
+      "react-bootstrap": "^2.4.0",
+      "react-dom": "^18.2.0",
+      "react-scripts": "5.0.1",
+      "styled-components": "^5.3.5",
+      "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build",
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "devDependencies": {
+      "gh-pages": "^4.0.0"
+    }
+  }
+
+
+{ viewJourneyTag ? <Images first={true}/> :  <Images first={false}/> }
+
+
+  <div className="teamSect">
+                    <div className="tr1">
+                        { viewJourneyTag ? <Images img={details.david.img}  role={details.david.role}  name={details.david.name} first={true}/> :  <Images img={details.david.img}  role={details.david.role}  name={details.david.name} first={false}/> }
+                        <Images img={details.david.img}  role={details.david.role}  name={details.david.name} first={true}/>
+                        <Images img={details.arasen.img}  role={details.arasen.role}  name={details.arasen.name} />
+                        <Images img={details.tiam.img}  role={details.tiam.role}  name={details.tiam.name} />
+                    </div>
+                    <div className="tr2">
+                        <Images img={details.amos.img}  role={details.amos.role}  name={details.amos.name} />
+                        <Images img={details.rokia.img}  role={details.rokia.role}  name={details.rokia.name} />
+                        <Images img={details.reggie.img}  role={details.reggie.role}  name={details.reggie.name} />
+                    </div>
+                    <div className="viewJ">
+                        <div className="viewCont">
+                            <VisibilityIcon/>
+                            View Our Journeys
+                        </div>
+
+                    </div>
+                </div>
+
+
+             onClick show ReadBox
+             getId of person clicked and display thier info
+
+
+
+             Images Reserve Code
+
+              const storySection = document.getElementsByClassName("readWrapper");
+                  function removeStory(){
+                      const readContainer = document.getElementsByClassName("readContainer")[0];
+                     readContainer.style.display="none";
+                     console.log("Removed")
+                 }
+
+                  function displayStory(){
+                         readContainer.style.display="flex";
+                         console.log("Here")
+                     }
+                     const readContainer = document.getElementsByClassName("readContainer")[0];
+                     const viewButton = document.getElementsByClassName("view")[0];

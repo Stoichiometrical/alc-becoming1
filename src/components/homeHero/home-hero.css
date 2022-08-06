@@ -1,0 +1,24 @@
+.heroContainer{
+    width:100%;
+    /*height: calc(100vh - 70px);*/
+    height:80vh;
+    position:relative;
+}
+
+.heroImg{
+    width:100%;
+    /*height: calc(100vh - 70px);*/
+    height:80vh;
+    object-fit:cover;
+    object-position:top;
+
+}
+
+.heroTxt{
+    color:white;
+    font-weight:700;
+    font-size:3rem;
+    position:absolute;
+    top:22%;
+    margin-left:18%;
+}

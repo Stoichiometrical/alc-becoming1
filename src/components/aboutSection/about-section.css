@@ -1,0 +1,60 @@
+.aboutContainer{
+    /*background-color:#191970;*/
+    background-color:#132e57;
+    width:100%;
+    height:350px;
+}
+
+.aboutWrapper{
+    display:flex;
+    padding:10px;
+}
+
+.aboutNPic{
+    display:flex;
+    flex-flow:column wrap;
+    margin-left:10%;
+}
+
+.aboutTxt{
+    font-size:40px;
+    color:#FFC300;
+    font-weight:900;
+}
+
+.aboutImg{
+    width:300px;
+    height:200px;
+    position:absolute;
+    border-radius:15px;
+    top:-11px;
+    left:-15px;
+}
+
+.aboutParagraph{
+    display:flex;
+    flex-flow: column wrap;
+    word-break: break-word;
+    width:100%;
+    color:white;
+    margin-top: 4%;
+    margin-left:10px;
+}
+.ap1{
+    font-weight:bold;
+}
+
+.box{
+    display:flex;
+    position:relative;
+    margin-top:4%;
+    /*border: 2px solid #FFC300;*/
+}
+
+.abox{
+    border: 2px solid #FFC300;
+    width:300px;
+    height:200px;
+    border-radius:15px;
+
+}

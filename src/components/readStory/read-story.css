@@ -1,0 +1,43 @@
+.readContainer{
+    width:100%;
+    display:none;
+    justify-content:center;
+    margin-bottom:5%;
+    height:auto;
+}
+
+.readWrapper{
+    display:flex;
+    flex-flow: row wrap;
+    width:70%;
+    height:580px;
+    overflow-y:scroll;
+    position:absolute;
+    margin-top:-50%;
+    margin-left:4%;
+    padding:10px;
+    background-color:#132e57;
+    border-radius:15px;
+    opacity:0.9;
+}
+
+.readImgSide{
+    flex:2;
+    justify-content:flex-start;
+    margin-top:2%;
+}
+
+.readText{
+    flex:4;
+    color:white;
+    margin-left:2%;
+}
+
+.iconX{
+    color:red;
+    padding:10px;
+    left:-10px;
+    font-size: 30px;
+    position:absolute;
+    top:0;
+}

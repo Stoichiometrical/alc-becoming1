@@ -1,0 +1,66 @@
+.cbox{
+    display:flex;
+    flex-direction:column;
+    position:relative;
+    margin-top:4%;
+    margin-left:5%;
+    width:200px;
+}
+
+.cboxed{
+    border: 2px solid #191970;
+    width:200px;
+    height:215px;
+    border-radius:15px;
+    padding:10px;
+}
+
+.cImg{
+    width:200px;
+    height:200px;
+    position:absolute;
+    border-radius:15px;
+    top:-11px;
+    left:29px;
+}
+
+.cnameRole{
+    font-size:15px;
+    position:relative;
+    /*top:-10px;*/
+    left:25%;
+    padding:10px;
+    bottom:-74%;
+    /*color:black;*/
+}
+
+.cname{
+    font-size:19px;
+    position:relative;
+    /*top:-10px;*/
+    left:25%;
+    padding:10px;
+    top:70%;
+    color:white;
+}
+
+.viewJourney{
+    margin-top:10px;
+    display:block;
+    background-color:#191970;
+    color:white;
+    text-align:center;
+    border-radius:20px;
+}
+.viewJourney:hover{
+    cursor:pointer;
+}
+/*Custom*/
+.mbox{
+    display:flex;
+    flex-direction:column;
+    position:relative;
+    margin-top:4%;
+    margin-left:2%;
+    /*width:200px;*/
+}
